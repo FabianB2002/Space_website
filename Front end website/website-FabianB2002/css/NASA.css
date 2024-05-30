@@ -1,0 +1,36 @@
+.Nasa {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.picture-description {
+    display: flex;
+}
+
+#picture {
+    width: 70%;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+#description {
+    word-spacing: 0.1em;
+    line-height: 30px;
+    text-align: justify
+}
+
+/*
+Media queries for small devices(phones, 600px and down)
+*/
+@media screen and (max-width: 600px) {
+
+    #picture {
+        width :50%;
+        height: 50%;
+    }
+
+}
+
+

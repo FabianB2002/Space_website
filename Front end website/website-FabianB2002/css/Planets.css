@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Planets{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    column-gap: 6em;
+    
+}
+
+img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 1px;
+}
+
+.Planet {
+    height: 750px;
+    width: 450px;
+    margin: 30px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.text {
+    height: 100px;
+    width: 450px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    bottom: 10px;
+    transition: 1s;
+    position: relative; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    visibility: hidden;
+    opacity: 1;
+    background: rgb(41, 41, 41, .5);
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+.Planet:hover {
+    cursor: pointer;
+}
+
+.Planet:hover .text {
+    height: 220px;
+    bottom: 440px;
+    visibility: visible;
+}
+
+.Planet:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+/*
+Media queries for small devices(phones, 600px and down)
+*/
+@media screen and (max-width: 600px)  {
+
+    .Planets {
+        width: 150px;
+        margin: auto;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        
+    }
+
+    .Planet {
+        width: 200px;
+        height: 250px;
+    }
+
+    .Planet:hover .text {
+        height: 200px;
+        bottom: 200px;
+        
+    }
+    
+    .text {
+        height: 20px;
+        width: 150px;
+        padding: 0px;
+        bottom: 10px;
+        transition: 1s;
+        text-align: justify;
+    }
+
+    h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 10px;
+    }
+    
+}
+

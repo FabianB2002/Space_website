@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+section {
+    color: black ;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  section#stars name {
+    letter-spacing: 5px;
+    font-size: 30px;
+  }
+
+  article {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-family: "Codystar";
+    letter-spacing: 5px;
+  }
+
+  dl {
+    display:grid;
+    grid-template-columns: auto 2fr;
+    
+  }
+
+  input{
+    color: black;
+  }
+  button{
+    color: black;
+  }
+
+  /*
+Media queries for small devices(phones, 600px and down)
+*/
+  @media screen and (max-width: 600px) {
+  
+    article{
+        letter-spacing: 3px;
+    }
+  }
