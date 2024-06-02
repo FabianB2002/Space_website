@@ -4,9 +4,9 @@ My website is all about ***Space***.
  
 It has 4 pages: 
 - [The home page](https://github.com/FabianB2002/Space_website/blob/main/Front%20end%20website/website-FabianB2002/index.html)
-- [A page about planets](website-FabianB2002/Planets.html)
-- [A page where you can search about a star](website-FabianB2002/Stars.html)
-- A page which can show you the [NASA Picture of the day](website-FabianB2002/NASA.html) 
+- [A page about planets](https://github.com/FabianB2002/Space_website/blob/main/Front%20end%20website/website-FabianB2002/Planets.html)
+- [A page where you can search about a star](https://github.com/FabianB2002/Space_website/blob/main/Front%20end%20website/website-FabianB2002/Stars.html)
+- A page which can show you the [NASA Picture of the day](https://github.com/FabianB2002/Space_website/blob/main/Front%20end%20website/website-FabianB2002/NASA.html) 
 
 The home page introduces the subject of space and the universe as well as portray a few facts.
 
